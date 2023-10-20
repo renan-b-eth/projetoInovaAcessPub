@@ -1,0 +1,9 @@
+package br.com.fiap.beans;
+
+public class Acessibilidade {
+	
+	private int idAcessibilidade;
+	private boolean precisaAcessibilidade;
+	
+	
+}

@@ -1,0 +1,49 @@
+package br.com.fiap.beans;
+
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.image.BufferedImage;
+
+import javax.swing.JFrame;
+
+import org.opencv.core.Mat;
+import org.opencv.videoio.VideoCapture;
+
+public class WebCam extends JFrame implements Runnable {
+	//variaveis do tipo OpenCV
+	
+	private VideoCapture video;
+	private Mat frame;
+	
+	private BufferedImage buff;
+	
+	public WebCam() {
+		
+		
+		
+	}
+	
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		this.video = new VideoCapture(0); // 0 webcam principal 1 webcam secundaria
+		this.frame = new Mat();
+			if(video.isOpened()) { // webcam está gravando? se sim fará um loop
+				while(true) {
+					video.read(frame); // vai salvar os videos no frame
+					if(!frame.empty()) { // verificar se o frame e não está vazio
+						MatToBufferedImage(frame);
+						this.repaint();
+					}
+				}
+			}
+	}
+
+
+	private void MatToBufferedImage(Mat frame2) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}

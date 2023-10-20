@@ -1,0 +1,10 @@
+package br.com.fiap.beans;
+
+public class Login {
+	private int idLogin, idUsuario;
+	private String loginUsuario, senhaUsuario;
+	
+	public void realizarLogin(String loginUsuario, String senhaUsuario) {
+		
+	}
+}

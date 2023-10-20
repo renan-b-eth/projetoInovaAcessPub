@@ -1,0 +1,28 @@
+package br.com.fiap.beans;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+
+public class Tela extends JFrame {
+	
+	JLabel lblLogo = new JLabel();
+	JPanel pnlpainel = new JPanel();
+	JButton btnSair = new JButton();
+	
+	public Tela() {
+		//Configuração da tela inicial
+		setTitle("InovaAcess - WEBCAM Mouse");
+		setSize(800,500);
+		setVisible(true);
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setResizable(false);
+		setLocationRelativeTo(null);
+		
+		
+		
+		
+	}
+	
+}

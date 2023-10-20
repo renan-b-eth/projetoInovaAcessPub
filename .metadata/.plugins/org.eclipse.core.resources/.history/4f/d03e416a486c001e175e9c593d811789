@@ -1,0 +1,11 @@
+package br.com.fiap.main;
+
+import br.com.fiap.beans.Usuario;
+
+public class Execucao {
+	public static void main(String[] args) {
+		
+		Usuario user = new Usuario();
+		
+	}
+}

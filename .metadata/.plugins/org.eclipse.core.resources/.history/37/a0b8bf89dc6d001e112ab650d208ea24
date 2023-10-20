@@ -1,0 +1,18 @@
+package br.com.fiap.beans;
+
+import javax.swing.JFrame;
+
+public class Tela {
+	
+	public Tela() {
+		
+		JFrame frame = new JFrame();
+		frame.setVisible(true);
+		frame.setSize(800,500);
+		frame.setTitle("InovaAcess - WEBCAM Mouse");
+		
+		
+		
+	}
+	
+}

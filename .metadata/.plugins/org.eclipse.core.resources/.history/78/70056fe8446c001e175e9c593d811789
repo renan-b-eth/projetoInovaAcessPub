@@ -1,0 +1,11 @@
+package br.com.fiap.beans;
+
+public class Usuario {
+	
+	private int idUsuario;
+	private String nomeUsuario, emailUsuario, senhaUsuario, loginUsuario, telefoneUsuario;
+	
+	
+	
+	
+}

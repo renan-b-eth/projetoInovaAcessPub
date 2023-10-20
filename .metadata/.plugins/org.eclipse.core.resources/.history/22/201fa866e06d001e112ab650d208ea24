@@ -1,0 +1,42 @@
+package br.com.fiap.beans;
+
+import java.awt.Font;
+
+import javax.swing.ImageIcon;
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+
+public class Tela extends JFrame {
+	
+	JLabel lblLogo = new JLabel();
+	JLabel lblLogo2 = new JLabel();
+	JPanel pnlpainel = new JPanel();
+	JButton btnSair = new JButton();
+	
+	public Tela() {
+		//Configuração da tela inicial
+		setTitle("InovaAcess - WEBCAM Mouse");
+		setSize(800,500);
+		setVisible(true);
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setResizable(false);
+		setLocationRelativeTo(null);
+		setLayout(null);
+		
+		lblLogo.setIcon(new ImageIcon("C:\\Users\\logonrmlocal\\Desktop\\pasta2\\projetoInovaAcess\\InovaAcessBeta\\src\\imagens\\logo.png"));
+		pnlpainel.add(lblLogo);
+		
+		//Configurações do botão
+		
+		JButton btnSair2 = new JButton("SAIR");
+		btnSair2.setBounds(100, 100, 200, 200);
+		btnSair2.setFont(new Font(null));
+		//ADD AS TELAS NO PROJETO
+		add(pnlpainel);
+		add(btnSair2);
+		validate();
+	}
+	
+}

@@ -1,0 +1,29 @@
+package br.com.fiap.beans;
+
+public class Usuario {
+	
+	private int idUsuario;
+	private String nomeUsuario, emailUsuario, senhaUsuario, loginUsuario, telefoneUsuario;
+	
+	
+	
+	
+	
+	public Usuario() {
+		super();
+	}
+
+
+	public Usuario(int idUsuario, String nomeUsuario, String emailUsuario, String senhaUsuario, String loginUsuario,
+			String telefoneUsuario) {
+		super();
+		this.idUsuario = idUsuario;
+		this.nomeUsuario = nomeUsuario;
+		this.emailUsuario = emailUsuario;
+		this.senhaUsuario = senhaUsuario;
+		this.loginUsuario = loginUsuario;
+		this.telefoneUsuario = telefoneUsuario;
+	}
+	
+	
+}

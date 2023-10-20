@@ -1,0 +1,14 @@
+package br.com.fiap.main;
+
+import java.util.ArrayList;
+
+import br.com.fiap.beans.Usuario;
+
+public class Execucao {
+	public static void main(String[] args) {
+		
+		Usuario user = new Usuario();
+		ArrayList<Usuario> listaUsuario = new ArrayList();
+		
+	}
+}

@@ -1,0 +1,6 @@
+package br.com.fiap.beans;
+
+public class Logs {
+	private int idLogs;
+	private String dataLog, descricaoLog;
+}

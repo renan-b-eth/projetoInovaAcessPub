@@ -1,0 +1,11 @@
+package br.com.fiap.beans;
+
+public class ChatBot {
+
+	private int idChatBot, idAcessibildiade, idUsuario;
+	private String nomeCliente, emailCliente, telefoneCliente;
+	
+	
+	
+	
+}

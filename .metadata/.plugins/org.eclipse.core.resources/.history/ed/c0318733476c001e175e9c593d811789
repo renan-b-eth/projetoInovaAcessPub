@@ -1,0 +1,15 @@
+package br.com.fiap.beans;
+
+public class Leads {
+	private int idLeads, idUsuario;
+	private String emailUsuario, numeroUsuario;
+	
+	public void salvarLeads(int idUsuario, String emailUsuario, String numeroUsuario) {
+		
+	}
+	
+	public void listarLeads(){
+		
+		
+	}
+}

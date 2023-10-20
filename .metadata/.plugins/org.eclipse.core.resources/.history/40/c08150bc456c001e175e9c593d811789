@@ -1,0 +1,10 @@
+package br.com.fiap.beans;
+
+public class Admin extends Usuario{
+	
+	private int idAdmin;
+	private String emailAdmin, senhaAdmin, nomeAdmin;
+	
+	
+	
+}

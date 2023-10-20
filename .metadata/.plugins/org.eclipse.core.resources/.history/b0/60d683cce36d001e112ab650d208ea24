@@ -1,0 +1,9 @@
+package br.com.fiap.beans;
+
+import java.awt.event.ActionListener;
+
+import javax.swing.JFrame;
+
+public class WebCam extends JFrame implements ActionListener{
+
+}
